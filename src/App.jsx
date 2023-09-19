@@ -1,12 +1,12 @@
 import "./App.css";
-// import DaisyNav from "./component/DaisyNav";
 import NavBar from "./component/NavBar";
+import PriceOptions from "./component/PriceOptions";
 
 function App() {
   return (
     <>
       <NavBar></NavBar>
-      {/* <DaisyNav></DaisyNav> */}
+      <PriceOptions></PriceOptions>
     </>
   );
 }
